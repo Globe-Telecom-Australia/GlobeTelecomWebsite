@@ -1,0 +1,578 @@
+/*
+Theme Name: Accelerate Child
+Template: accelerate
+Author: Child Theme Configurator
+Version: 1.0.1443424700
+Updated: 2015-09-28 07:18:20
+*/
+
+
+@charset "UTF-8";
+@import url(../../../../fonts.googleapis.com/css__family_Source_Sans_Pro.html);
+@import url(../../../../fonts.googleapis.com/css__family_Open_Sans.html);
+@import url(../../../../fonts.googleapis.com/css__family_Gudea_400_700_400italic.html);
+
+body
+{ 
+	padding:0; margin:0 auto;   
+	font-size: 15px;
+	line-height: 2;
+	font-family: 'Open Sans', sans-serif !important;
+	background-color: #fff;
+  color:#707070;
+	}
+  
+h1, h2, h3{    font-family: 'Source Sans Pro', sans-serif; padding:10px 0;     margin: 10px 0;}
+h4{ 
+
+      font-size: 15px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.entry-header h1{font-size: 3.5em;  font-family: 'Gudea', sans-serif;}
+h1{ border-bottom:1px solid #ccc; text-align:center; text-transform: uppercase; color:#707070;}
+h2, h3{color:#f38e00;}
+.entry-content li { line-height: inherit;font-size: 15px;} 
+.entry-content ul, .entry-content ol
+{
+      margin-bottom: 0px;
+}
+ #demo a
+ {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feccb1+0,f17432+1,ea5507+56,f97e3b+100 */
+background: rgb(254,204,177); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,204,177,1) 0%, rgba(241,116,50,1) 1%, rgba(234,85,7,1) 56%, rgba(249,126,59,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,204,177,1)), color-stop(1%,rgba(241,116,50,1)), color-stop(56%,rgba(234,85,7,1)), color-stop(100%,rgba(249,126,59,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(254,204,177,1) 0%,rgba(241,116,50,1) 1%,rgba(234,85,7,1) 56%,rgba(249,126,59,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(254,204,177,1) 0%,rgba(241,116,50,1) 1%,rgba(234,85,7,1) 56%,rgba(249,126,59,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(254,204,177,1) 0%,rgba(241,116,50,1) 1%,rgba(234,85,7,1) 56%,rgba(249,126,59,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(254,204,177,1) 0%,rgba(241,116,50,1) 1%,rgba(234,85,7,1) 56%,rgba(249,126,59,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#f97e3b',GradientType=0 ); /* IE6-9 */
+
+     float: right;
+    display: block;
+    padding: 1px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+ }
+  #demo a:hover
+ {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f75802+0,ea5507+97,f17432+99,ea5507+100,feccb1+100,ea5507+100 */
+background: rgb(247,88,2); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(247,88,2,1) 0%, rgba(234,85,7,1) 97%, rgba(241,116,50,1) 99%, rgba(234,85,7,1) 100%, rgba(254,204,177,1) 100%, rgba(234,85,7,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,88,2,1)), color-stop(97%,rgba(234,85,7,1)), color-stop(99%,rgba(241,116,50,1)), color-stop(100%,rgba(234,85,7,1)), color-stop(100%,rgba(254,204,177,1)), color-stop(100%,rgba(234,85,7,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(247,88,2,1) 0%,rgba(234,85,7,1) 97%,rgba(241,116,50,1) 99%,rgba(234,85,7,1) 100%,rgba(254,204,177,1) 100%,rgba(234,85,7,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(247,88,2,1) 0%,rgba(234,85,7,1) 97%,rgba(241,116,50,1) 99%,rgba(234,85,7,1) 100%,rgba(254,204,177,1) 100%,rgba(234,85,7,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(247,88,2,1) 0%,rgba(234,85,7,1) 97%,rgba(241,116,50,1) 99%,rgba(234,85,7,1) 100%,rgba(254,204,177,1) 100%,rgba(234,85,7,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(247,88,2,1) 0%,rgba(234,85,7,1) 97%,rgba(241,116,50,1) 99%,rgba(234,85,7,1) 100%,rgba(254,204,177,1) 100%,rgba(234,85,7,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f75802', endColorstr='#ea5507',GradientType=0 ); /* IE6-9 */
+
+ }
+#main {  padding-top: 0;}
+.inner-wrap {max-width:1200px;}
+
+#page
+{
+	max-width:1200px;
+	background-color: transparent;
+    box-shadow: none;
+	border-top: 0px !Important;
+}
+.home .entry-header {display: none;}
+
+#header-text-nav-container{background:transparent; border-bottom:none;}
+.homemenu2
+{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+84,ffffff+84,000000+84,000000+84,000000+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 84%, rgba(255,255,255,1) 84%, rgba(0,0,0,1) 84%, rgba(0,0,0,1) 84%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(84%,rgba(255,255,255,1)), color-stop(84%,rgba(255,255,255,1)), color-stop(84%,rgba(0,0,0,1)), color-stop(84%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 84%,rgba(255,255,255,1) 84%,rgba(0,0,0,1) 84%,rgba(0,0,0,1) 84%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 84%,rgba(255,255,255,1) 84%,rgba(0,0,0,1) 84%,rgba(0,0,0,1) 84%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 84%,rgba(255,255,255,1) 84%,rgba(0,0,0,1) 84%,rgba(0,0,0,1) 84%,rgba(0,0,0,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 84%,rgba(255,255,255,1) 84%,rgba(0,0,0,1) 84%,rgba(0,0,0,1) 84%,rgba(0,0,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+.homemenu2 a
+	{
+    /*color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding: 7px 0px;
+    display: block;
+	    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;*/
+    top: 10px;
+    left: 0;
+    right: 0;
+    width: 214px;
+    color: #f38e00 !important;
+    font-weight: 400;
+    padding: 10px 0px !important;
+    font-size: 18px !important;
+    text-shadow: 1px 1px 6px #4C2C00;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 !important;
+    z-index: 99;
+    position: relative;
+
+}
+.homemenu2.panel-grid-cell:hover
+{
+  text-shadow: 1px 1px 6px #4C2C00;
+  color:#f38e00;
+}
+
+.homemenu2.panel-grid-cell
+{
+  position: relative;
+}
+.homemenu2.panel-grid-cell img
+{
+  position: relative;display: block;
+}
+
+.parallax
+{
+	height:300px;
+    padding: 95px 30px 0px;
+	margin-bottom: -35px;
+}
+.parallax  h2
+{
+    color: #f38e00;
+    text-shadow: 3px 2px 6px #000000;
+    text-transform: uppercase;
+	
+}
+.decoration
+{border-top:none !Important;
+}
+
+.signupformleft
+{
+  width:48%;
+  max-width: 100%;
+  float:left;
+
+}
+.signupformright
+{
+  width:48%;
+  max-width: 100%;
+  float:right;
+
+}
+/* iinerpages */
+
+
+.iconrow .panel-grid-cell:first-child
+{ margin-left:0 !important;
+}
+.iconrow .panel-grid-cell:last-child
+{ margin-right:0 !important;
+}
+
+.iconrow5 .panel-grid-cell
+{ margin:0 2% !important;}
+.iconrow .panel-grid-cell
+{
+    width: 200px !Important;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin:0 5%;
+    padding-top: 28px;
+    box-shadow: 1px 1px 2px #ccc;
+}
+.iconrow .panel-grid-cell:hover
+{
+  box-shadow: 2px 2px 5px #ccc;
+}
+.iconrow .panel-grid-cell .panel-first-child
+{    margin-bottom: 10px !Important;
+}
+.iconrow .panel-grid-cell img
+{  width:50%;
+
+}
+
+/* smallmenu */
+.main-small-navigation a
+{color:#fff !important;
+}
+.main-small-navigation li {
+  background-color: rgba(73, 60, 40, 0.34);
+  }
+.main-small-navigation, .site-header .menu-toggle{
+  background-color: transparent !Important;
+  background: transparent !Important;
+}
+.main-small-navigation ul
+{  position: relative;
+  z-index: 200;
+  width: 100%;
+  }
+  
+.sub-menu
+{
+    background-color: #fff;     text-align: left;
+}
+
+.main-small-navigation a
+{  text-transform: capitalize;
+}
+ /* Main menu */
+ .menu-headermenu-container
+ {
+  float:right;
+ }
+.main-navigation
+{
+    float: right;
+    width: 75%;
+    margin-top: -80px;
+	
+}
+.main-navigation .login
+{
+padding-left:30px;
+}
+.main-navigation a
+{  
+    color: #666a6f;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 9px;
+    margin: 0px 9px;
+    line-height: 2;
+    font-weight: 400;
+   
+}
+.main-navigation ul li ul
+{
+      width: 236px;
+}
+.main-navigation ul li ul li a
+{
+  text-transform: capitalize;
+}
+.main-navigation a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a
+{
+color:#f79121 !important;
+background-color: transparent !important;
+
+}
+.ms-info
+{
+	
+	max-width:960px;
+	display:block;
+	margin:0 auto;
+	margin-top:12%;
+  text-align: center !important;
+  ffont-family: 'Gudea', sans-serif;
+
+}
+.ms-info h2
+{
+	background-color: rgba(0, 0, 0, 0.59);
+	max-width:600px;
+	display:block;
+  text-align: center !important;
+	float:left;
+	padding:10px 10px;
+	color:#fff;
+	text-transform:inherit;
+	font-style:italic;
+  font-family: 'Gudea', sans-serif;
+
+}
+/* TO MAKE ONE FOOTER */
+a#scroll-up i{  font-size: 20px;
+}
+
+.footer-widgets-wrapper
+{background-color:inherit;border-top:0; color#fff; width: 30%;  float: right;margin-top:-10px;
+}
+.footer-socket-wrapper
+{
+	background: #4e4e4e;
+    border-top: 3px solid #4E4E4E !Important;
+    background-repeat: repeat-x;
+    padding: 0px 0px;
+    padding-bottom: 10px;
+}
+footer
+{text-align:center;
+text-transform:uppercase;
+}
+
+.footer-socket-wrapper .footer-menu
+{ padding-top:20px; width:50%; padding-bottom:10px; float:left;}
+
+.footer-menu li {
+    float: none;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
+.footer-menu a
+{  		color: #d0d0d0;
+		padding: 5px 18px 0px 0px;
+		font-size: 14px;
+		text-transform: capitalize;
+}
+.copyright 
+{float:right; width:50%; padding-top: 20px;
+}
+.footer-socket-wrapper .copyright, .footer-socket-wrapper .copyright a
+{
+	color: #d0d0d0;
+    max-width: 100%;
+	
+}
+.footer-menu a:hover, .footer-socket-wrapper .copyright a:hover, .footer-socket-wrapper .copyright a:focus, .footer-menu a:active, .footer-menu a:focus,.footer-menu ul li.current-menu-item a, .footer-menu ul li.current_page_item a
+{  color: #FFFFFF !important;;
+}
+
+.tg-one-third
+{width:100%;}
+.footer-widgets-area, #colophon .widget
+{padding-top:0px; padding-bottom:0px;}
+.so-widget-sow-social-media-buttons-wire-918002c34823 .sow-social-media-button
+{ padding-top: 0px !Important; }
+
+@media screen and (max-width:769px){
+  .signupformleft, .signupformright
+  {
+    width: 100%;
+  }
+  .iconrow .panel-grid-cell, .iconrow5 .panel-grid-cell {
+    margin: 10px auto !important;
+}
+.iconrow .panel-grid-cell:first-child
+{ margin-left:auto !important;
+}
+.iconrow .panel-grid-cell:last-child
+{ margin-right:auto !important;
+}
+  .nivo-caption{display:none !Important;}
+ footer{text-align:center !important;}
+.service-image, .widget-title{text-align:center;}
+.read-more{  float: none;  margin: 0 auto;  position: relative;  display: block;  width: 100px;  text-align: center;}
+.footer-socket-wrapper .footer-menu,.copyright{width:100%; float:none;}
+#footersocial{  float: none;  width: 100%;}
+.footer-widgets-wrapper{margin-top:0px; width: 100%;}
+#header-text-nav-wrap{padding:0 0;}
+
+}
+
+@media screen and (max-width: 1000px)
+{
+.main-navigation{margin-top:0px; width: 100%;}
+}
+
+/* ----------------other css----------------- */
+p {  line-height: inherit;
+  
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: 'Open Sans', sans-serif !important;
+}
+img{  margin: 0 auto; vertical-align:middle;}
+.homeimgtitle
+{  font-family: 'bebas_neueregular';
+   background: rgba(0, 0, 0, 0.58);
+  display: block;
+  margin-top: -61px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 1.5;
+}
+@media (max-width: 780px){
+
+.so-widget-sow-social-media-buttons-wire-918002c34823 .social-media-button-container{  text-align: inherit !Important;}
+.homeimgtitle {background: transparent;
+ }
+ .vertiline .panel-grid-cell
+{border-right:0px !Important;
+ }
+}
+
+/* --------------------------- */
+.homeicon
+{   
+  font-family: 'bebas_neueregular';
+  display: block;
+  position: relative;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.vertiline
+{width:80%;  margin: 0 auto; margin-top:50px;
+}
+.vertiline .panel-grid-cell
+{border-right:1px solid;
+}
+#pgc-5-2-3
+{border-right:0px;
+}
+.homeh1
+{  text-align: center;
+  background: url('../../uploads/2015/07/titlebg.png') no-repeat top center;
+  border-top: 0;
+  padding: 11px 0px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+hr {
+  border-color: #888888;
+  }
+
+
+/*  ----------------------------------------small screen  icon  ----------------------------------- */
+  @media only screen and (min-width:769px) and (max-width:1200px) {
+
+  .iconrow .panel-grid-cell
+  {
+      width: 120px !Important;
+      height: 120px;
+	  margin: 4px 2% !Important;
+  }
+    .iconrow .panel-grid-cell p
+  {display:none;
+  }
+  .iconrow .panel-grid-cell img {
+    width: 66%;
+}
+}
+
+    /* ----------------------------------------table schedule page  -----------------------------------*/
+    /* Force table to not be like tables anymore */
+	table, 
+	thead, 
+	tbody, 
+	th, 
+	td, 
+	tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	tr { border: 1px solid #ccc; }
+ 
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	td:before { content: attr(data-title); }
+}
+/* ----------------------------------------table schedule page  -----------------------------------*/
+
+div.wpcf7-response-output {
+  clear: both !important;
+}
+
+/* -------------------------- MP (Kutamo) Custom Table Style to Fix f'd up styles ----------------- */
+.defaulttable {
+  display: table;
+}
+.defaulttable thead {
+  display: table-header-group;
+}
+.defaulttable tbody {
+  display: table-row-group;
+}
+.defaulttable tfoot {
+  display: table-footer-group;
+}
+.defaulttable tbody>tr:hover,
+.defaulttable tbody>tr {
+  display: table-row;
+}
+.defaulttable tbody>tr:hover>td,
+.defaulttable tbody>tr>td {
+  display: table-cell;
+}
+.defaulttable,
+.defaulttable tbody,
+.defaulttable tbody>tr:hover,
+.defaulttable tbody>tr,
+.defaulttable tbody>tr:hover>td,
+.defaulttable tbody>tr>td,
+.defaulttable tbody>tr:hover>th,
+.defaulttable tbody>tr>th,
+.defaulttable thead>tr:hover>td,
+.defaulttable thead>tr>td,
+.defaulttable thead>tr:hover>th,
+.defaulttable thead>tr>th,
+.defaulttable tfoot>tr:hover>td,
+.defaulttable tfoot>tr>td,
+.defaulttable tfoot>tr:hover>th,
+.defaulttable tfoot>tr>th {
+  background: transparent;
+  border: 0px solid #000;
+  border-spacing: 0px;
+  border-collapse: separate;
+  empty-cells: show;
+  padding: 0px;
+  margin: 0px;
+  outline: 0px;
+  font-size: 100%;
+  color: #000;
+  vertical-align: top;
+  text-align: left;
+  font-family: sans-serif;
+  table-layout: auto;
+  caption-side: top;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}

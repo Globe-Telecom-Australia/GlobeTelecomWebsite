@@ -1,0 +1,49 @@
+Source: https://web.archive.org/web/20260115043242/https://www.globetelecom.com.au/
+Host: www.globetelecom.com.au
+Snapshot timestamp: 20260115043242
+Files written: 234
+Failed: 21
+
+Failures:
+  https://globetelecom.com.au/xmlrpc.php
+    HTTP Error 405: Method Not Allowed
+  https://www.globetelecom.com.au/wp-content/uploads/2015/10/13–1300-1800_APPLICATION_FORM_ENABLED.pdf
+    'ascii' codec can't encode character '\u2013' in position 88: ordinal not in range(128)
+  https://fonts.googleapis.com
+    HTTP Error 404: Not Found
+  https://globetelecom.com.au/wp-content/themes/accelerate/js/accelerate-custom.js?ver=5.5.17
+    HTTP Error 404: NOT FOUND
+  https://www.globewireless.com.au/support/
+    <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+  http://safedial.globetelecom.com.au/login.aspx
+    <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+  http://globetelecom.snspreview12.com.au/13-1300-1800-inbound-voice/
+    <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+  http://globetelecom.com.au/wp-content/uploads/2015/09/home1-300x159.jpg
+    <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+  https://globetelecom.com.au/wp-content/themes/accelerate/js/navigation.js?ver=5.5.17
+    HTTP Error 404: NOT FOUND
+  https://globetelecom.com.au/wp-includes/js/wp-embed.min.js?ver=5.5.17
+    HTTP Error 404: NOT FOUND
+  http://globetelecom.com.au/xmlrpc.php
+    HTTP Error 405: Method Not Allowed
+  http://globetelecom.com.au/wp-content/themes/accelerate/js/accelerate-custom.js?ver=5.5.17
+    HTTP Error 404: NOT FOUND
+  http://globetelecom.com.au/?p=44
+    HTTP Error 404: Not Found
+  http://globetelecom.com.au/wp-content/themes/accelerate/js/navigation.js?ver=5.5.17
+    HTTP Error 404: NOT FOUND
+  http://globetelecom.com.au/wp-includes/js/wp-embed.min.js?ver=5.5.17
+    HTTP Error 404: NOT FOUND
+  https://globetelecom.com.au/?p=72
+    HTTP Error 404: Not Found
+  http://inr.primustel.com.au/globel/logon.aspx
+    HTTP Error 404: Not Found
+  https://globetelecom.com.au/wp-content/uploads/2015/07/titlebg.png
+    HTTP Error 404: Not Found
+  https://globetelecom.com.au/wp-content/themes/accelerate/fontawesome/fonts/fontawesome-webfont.woff2?v=4.3.0
+    HTTP Error 404: Not Found
+  http://globetelecom.com.au/wp-content/uploads/2015/07/titlebg.png
+    HTTP Error 404: Not Found
+  http://globetelecom.com.au/wp-content/themes/accelerate/fontawesome/fonts/fontawesome-webfont.woff2?v=4.3.0
+    HTTP Error 404: Not Found
